@@ -59,8 +59,20 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
+          "api-armonik-core/**.yml",
+          "api-armonik-core/index.md"
+        ]
+      },
+      {
+        "files": [
+          "api-armonik-extensions-csharp/**.yml",
+          "api-armonik-extensions-csharp/index.md"
+        ]
+      },
+      {
+        "files": [
+          "api-armonik-utils/**.yml",
+          "api-armonik-utils/index.md"
         ]
       },
       {
