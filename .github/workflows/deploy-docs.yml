@@ -23,6 +23,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Clone projects
+        run: ./scripts/clone-projects.sh
+
       - name: Dotnet Setup
         uses: actions/setup-dotnet@v3
         with:
@@ -31,9 +34,6 @@ jobs:
       - name: Update DocFX
         run: dotnet tool update -g docfx
 
-      - name: Clone projects
-        run: ./scripts/clone-projects.sh
-      
       - name: Build Docs
         run: docfx .docs/docfx.json
 
