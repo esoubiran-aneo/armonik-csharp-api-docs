@@ -5,11 +5,47 @@
         {
           "src": "../",
           "files": [
-            "**.csproj"
+            "ArmoniK.Core/**.csproj"
           ]
         }
       ],
-      "dest": "api",
+      "dest": "api-armonik-core",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    },
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "ArmoniK.Extensions.Csharp/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api-armonik-extensions-csharp",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    },
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "ArmoniK.Utils/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api-armonik-utils",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
